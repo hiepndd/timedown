@@ -6,13 +6,13 @@ Specify duration in go format `2h3m4s`.
 
 ```bash
 run `go build .`
-`./timedown 10s`
+and `./timedown 10s`
 ```
 
 Add command with `&&` to run after countdown.
 
 ```bash
-countdown 1m30s && say "Hello, world"
+./timedown 1m30s && say "Hello, world"
 ```
 
 ## Key binding
